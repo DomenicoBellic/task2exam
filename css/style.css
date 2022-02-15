@@ -227,3 +227,9 @@
 .sidenav {
     overflow-x: hidden;
 }
+@media (max-width: 1201px) {
+    .flexdir {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
